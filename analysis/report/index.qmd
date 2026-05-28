@@ -1586,9 +1586,9 @@ top of this file. If anything below is unchecked, the post is not ready.
 This post is part of the *R Package Development and Testing* series.
 Recommended reading order:
 
-1. Post 70: [Updating an R Package: A Complete Workflow](../70-rcodepackageupdating/)
-2. Post 71: [Writing a Simple R Package Using S3 Methods](../71-simpleS3/)
-3. Post 72: [Writing a Simple Vim Plugin for REPL Interaction](../72-simplevimplugin/)
-4. Post 73: [Testing Data Analysis Workflows in R](../73-testingfordataanalysisworkflow/)
+1. Post 70: [Updating an R Package: A Complete Workflow](../70-rp-package-update-workflow/)
+2. Post 71: [Writing a Simple R Package Using S3 Methods](../71-rp-s3-methods-tutorial/)
+3. Post 72: [Writing a Simple Vim Plugin for REPL Interaction](../72-rp-vim-r-repl-plugin/)
+4. Post 73: [Testing Data Analysis Workflows in R](../73-rp-testing-data-analysis/)
 5. **Post 74: From testthat to tinytest** (this post)
 
