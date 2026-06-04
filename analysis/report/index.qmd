@@ -6,7 +6,7 @@ categories: [r, testing, tinytest, testthat, packaging]
 description: "I did not really appreciate how much ceremony testthat carries until I rewrote a small package's suite in tinytest and lost roughly two-thirds of the lines without losing any coverage."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
@@ -40,7 +40,7 @@ YAML FRONT MATTER (lines 1-20)
   [x] categories      — include `setup`, the tool name, and host OS
   [x] description     — 1-2 sentences for blog listing card
   [x] image           — path to hero image (relative to this .qmd)
-  [x] draft: false    — flip when ready
+  [x] draft: true    — flip when ready
 
 NARRATIVE INPUTS
   [x] Hook sentence   — 'I didn't know how to configure [tool] until [trigger]'
@@ -338,7 +338,7 @@ By the end of the conversion, the package should have:
 AMBIANCE IMAGE 1: placed after Objectives (workspace shot)
 ============================================================================ -->
 
-![A cappuccino in a dark cup resting on an open paper planner, lit by a shaft of light from a window above. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance1.jpg){.img-fluid}
+![A cappuccino in a dark cup resting on an open paper planner, lit by a shaft of light from a window above. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance1.png){.img-fluid}
 
 # What is tinytest?
 
@@ -680,7 +680,7 @@ likely contained more `expect_*` calls than the rewrite captured.
 AMBIANCE IMAGE 2: placed mid-body (terminal/editor)
 ============================================================================ -->
 
-![An espresso cup viewed from above on a wide hardwood floor, low-key lighting, single subject in deep shadow. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance2.jpg){.img-fluid}
+![An espresso cup viewed from above on a wide hardwood floor, low-key lighting, single subject in deep shadow. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance2.png){.img-fluid}
 
 # Things to Watch Out For
 
@@ -834,7 +834,7 @@ the migration to `main`.
 AMBIANCE IMAGE 3: placed before Lessons Learnt (workflow scene)
 ============================================================================ -->
 
-![A close-up of a single espresso drip falling from a machine into a grey ceramic mug. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance3.jpg){.img-fluid}
+![A close-up of a single espresso drip falling from a machine into a grey ceramic mug. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance3.png){.img-fluid}
 
 # What Did We Learn?
 
@@ -1523,7 +1523,7 @@ requests against the post's source are welcome at
 <https://github.com/rgthomas47/qblog>.
 
 <!-- ============================================================================
-PRE-PUBLISH QA CHECKLIST: verify each item BEFORE setting draft: false
+PRE-PUBLISH QA CHECKLIST: verify each item BEFORE setting draft: true
 
 This is the verification pass that mirrors the AUTHOR PROVIDES list at the
 top of this file. If anything below is unchecked, the post is not ready.
@@ -1531,7 +1531,7 @@ top of this file. If anything below is unchecked, the post is not ready.
 [ ] YAML
     [x] title, subtitle, date, categories, description, image filled in
     [x] document-type: 'blog'
-    [x] draft: false
+    [x] draft: true
 
 [ ] Narrative complete (no remaining `[bracketed]` placeholders)
     [ ] grep '\[' index.qmd returns only legitimate code/links
