@@ -1,0 +1,60 @@
+\contentsline {section}{\nonumberline Conversion Recipe: testthat to tinytest}{1}{section*.1}%
+\contentsline {subsection}{\nonumberline 1. Layout}{2}{subsection*.2}%
+\contentsline {subsection}{\nonumberline 2. Bootstrap files}{2}{subsection*.3}%
+\contentsline {subsubsection}{\nonumberline Before: \texttt {tests/testthat.R}}{2}{subsubsection*.4}%
+\contentsline {subsubsection}{\nonumberline After: \texttt {tests/tinytest.R}}{2}{subsubsection*.5}%
+\contentsline {subsection}{\nonumberline 3. Single test\_that block}{2}{subsection*.6}%
+\contentsline {subsubsection}{\nonumberline Before}{2}{subsubsection*.7}%
+\contentsline {subsubsection}{\nonumberline After}{3}{subsubsection*.8}%
+\contentsline {subsection}{\nonumberline 4. Multiple test\_that blocks per file}{3}{subsection*.9}%
+\contentsline {subsubsection}{\nonumberline Before}{3}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline After (Option A: single file)}{3}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline After (Option B: split into files)}{3}{subsubsection*.12}%
+\contentsline {subsection}{\nonumberline 5. Shared fixtures}{4}{subsection*.13}%
+\contentsline {subsubsection}{\nonumberline Before}{4}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline After}{4}{subsubsection*.15}%
+\contentsline {subsection}{\nonumberline 6. skip\_on\_cran and skip\_if\_not\_installed}{4}{subsection*.16}%
+\contentsline {subsubsection}{\nonumberline Before}{4}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline After}{5}{subsubsection*.18}%
+\contentsline {subsection}{\nonumberline 7. expect\_error with class matching}{5}{subsection*.19}%
+\contentsline {subsubsection}{\nonumberline Before}{5}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline After}{5}{subsubsection*.21}%
+\contentsline {subsection}{\nonumberline 8. expect\_warning and expect\_message with regex}{5}{subsection*.22}%
+\contentsline {subsubsection}{\nonumberline Before}{5}{subsubsection*.23}%
+\contentsline {subsubsection}{\nonumberline After}{6}{subsubsection*.24}%
+\contentsline {subsection}{\nonumberline 9. expect\_snapshot (no direct port)}{6}{subsection*.25}%
+\contentsline {subsubsection}{\nonumberline Before}{6}{subsubsection*.26}%
+\contentsline {subsubsection}{\nonumberline After (manual reference comparison)}{6}{subsubsection*.27}%
+\contentsline {subsection}{\nonumberline 10. expect\_silent}{7}{subsection*.28}%
+\contentsline {subsubsection}{\nonumberline Before}{7}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline After}{7}{subsubsection*.30}%
+\contentsline {subsection}{\nonumberline 11. expect\_output}{7}{subsection*.31}%
+\contentsline {subsubsection}{\nonumberline Before}{7}{subsubsection*.32}%
+\contentsline {subsubsection}{\nonumberline After}{7}{subsubsection*.33}%
+\contentsline {subsection}{\nonumberline 12. Assertions in testthat but not in tinytest}{7}{subsection*.34}%
+\contentsline {subsubsection}{\nonumberline \texttt {expect\_s3\_class}}{8}{subsubsection*.35}%
+\contentsline {subsubsection}{\nonumberline \texttt {expect\_type}}{8}{subsubsection*.36}%
+\contentsline {subsubsection}{\nonumberline \texttt {expect\_named}}{8}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline \texttt {expect\_no\_error}}{8}{subsubsection*.38}%
+\contentsline {subsubsection}{\nonumberline \texttt {expect\_lt}, \texttt {expect\_gt}, \texttt {expect\_lte}, \texttt {expect\_gte}}{9}{subsubsection*.39}%
+\contentsline {subsubsection}{\nonumberline \texttt {expect\_is}}{9}{subsubsection*.40}%
+\contentsline {subsubsection}{\nonumberline Argument-name differences in \texttt {expect\_error} /}{10}{subsubsection*.41}%
+\contentsline {subsubsection}{\nonumberline \texttt {expect\_warning} / \texttt {expect\_message}}{10}{subsubsection*.42}%
+\contentsline {subsubsection}{\nonumberline Detection}{10}{subsubsection*.43}%
+\contentsline {subsection}{\nonumberline 13. local\_edition and edition\_get}{11}{subsection*.44}%
+\contentsline {subsection}{\nonumberline 14. Parameterised tests}{11}{subsection*.45}%
+\contentsline {subsubsection}{\nonumberline Before (testthat with patrick)}{11}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline After}{11}{subsubsection*.47}%
+\contentsline {subsection}{\nonumberline 15. tolerance defaults}{11}{subsection*.48}%
+\contentsline {subsection}{\nonumberline 16. DESCRIPTION}{12}{subsection*.49}%
+\contentsline {subsubsection}{\nonumberline Before}{12}{subsubsection*.50}%
+\contentsline {subsubsection}{\nonumberline After}{12}{subsubsection*.51}%
+\contentsline {subsection}{\nonumberline 17. Continuous integration}{12}{subsection*.52}%
+\contentsline {subsubsection}{\nonumberline Before (GitHub Actions, standard r-lib)}{12}{subsubsection*.53}%
+\contentsline {subsubsection}{\nonumberline After}{12}{subsubsection*.54}%
+\contentsline {subsection}{\nonumberline 18. Coverage reporting}{13}{subsection*.55}%
+\contentsline {subsection}{\nonumberline 19. Running tests interactively}{13}{subsection*.56}%
+\contentsline {subsection}{\nonumberline 20. Visibility of non-exported package objects}{13}{subsection*.57}%
+\contentsline {subsection}{\nonumberline 21. Migration order}{14}{subsection*.58}%
+\contentsline {subsection}{\nonumberline 22. When not to convert}{15}{subsection*.59}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
