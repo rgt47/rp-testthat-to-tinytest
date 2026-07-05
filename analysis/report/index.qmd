@@ -6,7 +6,7 @@ categories: [r, testing, tinytest, testthat, packaging]
 description: "I did not really appreciate how much ceremony testthat carries until I rewrote a small package's suite in tinytest and lost roughly two-thirds of the lines without losing any coverage."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
