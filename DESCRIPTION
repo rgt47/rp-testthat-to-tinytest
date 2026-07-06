@@ -2,7 +2,7 @@ Package: testthatToTinytest
 Title: Reviewing the Conversion of an R Package Test Suite from testthat to tinytest
 Version: 0.0.0.9000
 Authors@R:
-    person("R. Glenn", "Thomas", email = "rgthomas47@gmail.com",
+    person("Ronald G.", "Thomas", email = "rgthomas@ucsd.edu",
            role = c("aut", "cre"))
 Description: Companion compendium for a blog post that reviews the
     mechanics, motivations, and trade-offs of porting an R package test
