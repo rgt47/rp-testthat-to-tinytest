@@ -1,6 +1,6 @@
 ---
 title: "From testthat to tinytest: Converting an R Package Test Suite"
-author: "R. Glenn Thomas"
+author: "Ronald G. Thomas"
 date: "2026-05-02"
 categories: [r, testing, tinytest, testthat, packaging]
 description: "I did not really appreciate how much ceremony testthat carries until I rewrote a small package's suite in tinytest and lost roughly two-thirds of the lines without losing any coverage."
@@ -12,9 +12,6 @@ execute:
   warning: false
   message: false
 format:
-  html:
-    code-fold: false
-    code-tools: false
   pdf:
     pdf-engine: xelatex
     monofont: 'DejaVu Sans Mono'
