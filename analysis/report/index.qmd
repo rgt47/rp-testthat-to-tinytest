@@ -11,14 +11,6 @@ execute:
   echo: true
   warning: false
   message: false
-format:
-  pdf:
-    pdf-engine: xelatex
-    monofont: 'DejaVu Sans Mono'
-    geometry: margin=1in
-    fontsize: 11pt
-    toc: false
-
 cluster: r-packages
 cluster-order: 4
 ---
@@ -335,7 +327,7 @@ By the end of the conversion, the package should have:
 AMBIANCE IMAGE 1: placed after Objectives (workspace shot)
 ============================================================================ -->
 
-![A cappuccino in a dark cup resting on an open paper planner, lit by a shaft of light from a window above. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance1.png){.img-fluid}
+![A cappuccino in a dark cup resting on an open paper planner, lit by a shaft of light from a window above. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance1.png){.img-fluid height=3.5in}
 
 # What is tinytest?
 
@@ -677,7 +669,7 @@ likely contained more `expect_*` calls than the rewrite captured.
 AMBIANCE IMAGE 2: placed mid-body (terminal/editor)
 ============================================================================ -->
 
-![An espresso cup viewed from above on a wide hardwood floor, low-key lighting, single subject in deep shadow. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance2.png){.img-fluid}
+![An espresso cup viewed from above on a wide hardwood floor, low-key lighting, single subject in deep shadow. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance2.png){.img-fluid height=3.5in}
 
 # Things to Watch Out For
 
@@ -831,7 +823,7 @@ the migration to `main`.
 AMBIANCE IMAGE 3: placed before Lessons Learnt (workflow scene)
 ============================================================================ -->
 
-![A close-up of a single espresso drip falling from a machine into a grey ceramic mug. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance3.png){.img-fluid}
+![A close-up of a single espresso drip falling from a machine into a grey ceramic mug. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance3.png){.img-fluid height=3.5in}
 
 # What Did We Learn?
 
