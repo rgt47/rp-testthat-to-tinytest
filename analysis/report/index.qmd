@@ -1575,8 +1575,10 @@ top of this file. If anything below is unchecked, the post is not ready.
 This post is part of the *R Package Development and Testing* series.
 Recommended reading order:
 
-1. Post 70: [Updating an R Package: A Complete Workflow](../70-rp-package-update-workflow/)
-2. Post 72: [Writing a Simple Vim Plugin for REPL Interaction](../72-rp-vim-r-repl-plugin/)
-3. Post 73: [Testing Data Analysis Workflows in R](../73-rp-testing-data-analysis/)
-4. **Post 74: From testthat to tinytest** (this post)
+1. [Updating an R Package: A Complete Development Workflow](../rp-package-update-workflow/)
+2. [Writing a Simple Vim Plugin for REPL Interaction](../rp-vim-r-repl-plugin/)
+3. [Testing Data Analysis Workflows in R](../rp-testing-data-analysis/)
+4. **From testthat to tinytest: Converting an R Package Test Suite** (this post)
+5. [Code Review for AI-Assisted R Package Development](../rp-code-review-methodology/)
+6. [Exemplar Code Review: The zzobj2fig Package](../rp-code-review-exemplar/)
 
