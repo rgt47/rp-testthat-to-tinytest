@@ -1499,7 +1499,7 @@ judgment becomes the bottleneck rather than the typing.
 ---
 
 *Rendered on 2026-05-18 at 09:00 PDT.*<br>
-*Source: ~/prj/qblog/posts/62-testthat-to-tinytest/testthat-to-tinytest/analysis/report/index.qmd*
+*Source: ~/prj/rgtlab/posts/rp-testthat-to-tinytest/index.qmd*
 
 ---
 
