@@ -22,16 +22,23 @@ Always document the source and license of each image.
 
 ## ambiance1.jpg, ambiance2.jpg, ambiance3.jpg
 
-- **Status**: Placeholder coffee imagery copied from
-  `placeholder-coffee-03.jpg`, `placeholder-coffee-01.jpg`,
-  and `placeholder-coffee-05.jpg` respectively. These are
-  the qblog repository's standard coffee placeholders;
-  replace with subject-specific imagery (test scaffolding,
-  paired editor views, distillation metaphors) before
-  flipping `draft: false`. Subject-specific prompts for
-  three Gemini-generated ambiance images are in
-  `~/Dropbox/prj/qblog/HERO_IMAGE_PROMPTS.md` under
-  '### Post 62 -- testthat to tinytest'.
+- **Status (2026-08-25)**: Replaced. All three are genuine Gemini
+  generations as of 2026-08-25 (generated via the
+  `gemini-image-generator` tool), replacing the coffee placeholders
+  described below in the original entry.
+- `ambiance1.jpg`: a thick three-ring binder stuffed with papers
+  beside a slim manila folder of the same width, both tagged
+  identically. Metaphor: the same coverage carried in far fewer
+  pages.
+- `ambiance2.jpg`: a red pen resting on a long checklist where most
+  lines are struck through, leaving only a few checked items.
+  Metaphor: trimming ceremony down to the essential few checks.
+- `ambiance3.jpg`: a single drop of ink falling from a fountain-pen
+  nib toward a nearly blank page, frozen mid-fall. Metaphor: the one
+  essential mark that remains after everything unnecessary is
+  removed.
+- All three processed via `magick -resize 1600x -strip -quality 85`
+  to 1600x873.
 
 ## Template for Additional Images
 

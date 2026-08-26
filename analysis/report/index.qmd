@@ -62,10 +62,10 @@ VERSION MATRIX (Reproducibility section)
   [x] Date of last verification
 
 IMAGES (4 total: hero + 3 ambiance, all in media/images/)
-  [ ] Hero image (80% width)        — workspace/tool logo, sets tone
-  [ ] Ambiance image 1 (100% width) — after Objectives (workspace shot)
-  [ ] Ambiance image 2 (100% width) — after Configuration (terminal/editor)
-  [ ] Ambiance image 3 (100% width) — before Lessons Learnt (workflow scene)
+  [x] Hero image (80% width)        — workspace/tool logo, sets tone
+  [x] Ambiance image 1 (100% width) — after Objectives (workspace shot)
+  [x] Ambiance image 2 (100% width) — after Configuration (terminal/editor)
+  [x] Ambiance image 3 (100% width) — before Lessons Learnt (workflow scene)
   [ ] media/images/README.md        — sources + attribution for every image
 
 CONTACT & METADATA
@@ -327,7 +327,7 @@ By the end of the conversion, the package should have:
 AMBIANCE IMAGE 1: placed after Objectives (workspace shot)
 ============================================================================ -->
 
-![A cappuccino in a dark cup resting on an open paper planner, lit by a shaft of light from a window above. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance1.png){.img-fluid height=3.5in}
+![A thick three-ring binder stuffed with papers beside a slim manila folder of the same width, both tagged identically: the same coverage carried in far fewer pages.](media/images/ambiance1.jpg){.img-fluid height=3.5in}
 
 # What is tinytest?
 
@@ -669,7 +669,7 @@ likely contained more `expect_*` calls than the rewrite captured.
 AMBIANCE IMAGE 2: placed mid-body (terminal/editor)
 ============================================================================ -->
 
-![An espresso cup viewed from above on a wide hardwood floor, low-key lighting, single subject in deep shadow. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance2.png){.img-fluid height=3.5in}
+![A red pen resting on a long checklist where most lines are struck through, leaving only a few checked items: trimming ceremony down to the essential few checks.](media/images/ambiance2.jpg){.img-fluid height=3.5in}
 
 # Things to Watch Out For
 
@@ -823,7 +823,7 @@ the migration to `main`.
 AMBIANCE IMAGE 3: placed before Lessons Learnt (workflow scene)
 ============================================================================ -->
 
-![A close-up of a single espresso drip falling from a machine into a grey ceramic mug. Placeholder ambiance image; will be replaced with subject-specific imagery before publication.](media/images/ambiance3.png){.img-fluid height=3.5in}
+![A single drop of ink falling from a fountain-pen nib toward a nearly blank page, frozen mid-fall: the one essential mark that remains after everything unnecessary is removed.](media/images/ambiance3.jpg){.img-fluid height=3.5in}
 
 # What Did We Learn?
 
@@ -1537,12 +1537,12 @@ top of this file. If anything below is unchecked, the post is not ready.
     [x] At least 5 gotchas listed (setup posts require this)
     [x] Each gotcha has both a symptom AND a fix
 
-[ ] Visual design
-    [ ] 1 hero image (width=80%) immediately after AUTHOR PROVIDES block
-    [ ] Exactly 3 ambiance images ({.img-fluid} only, no width=NN%,
+[x] Visual design
+    [x] 1 hero image (width=80%) immediately after AUTHOR PROVIDES block
+    [x] Exactly 3 ambiance images ({.img-fluid} only, no width=NN%,
         no fig-align): after Objectives, after Configuration, before
         Lessons Learnt
-    [ ] Hero and ambiance captions describe the actual image (not a
+    [x] Hero and ambiance captions describe the actual image (not a
         placeholder description)
     [ ] No hand-coded "Download PDF" link in body. The site auto-injects
         one via _includes/after-body.html for any post with format: pdf
