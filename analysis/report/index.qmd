@@ -79,7 +79,7 @@ CONTACT & METADATA
 HERO IMAGE
 ============================================================================ -->
 
-![Two test-tube racks side by side on a clean lab bench, the right rack noticeably smaller and holding two amber-tinted tubes, symbolising the contraction in scaffolding when a suite moves from testthat to tinytest.](media/images/hero.png){.img-fluid width=80% fig-align="center"}
+![Two test-tube racks side by side on a clean lab bench, the right rack noticeably smaller and holding two amber-tinted tubes, symbolizing the contraction in scaffolding when a suite moves from testthat to tinytest.](media/images/hero.png){.img-fluid width=80% fig-align="center"}
 
 *Same coverage, fewer lines: the appeal of tinytest is less about novelty and more about the absence of ceremony.*
 
@@ -144,7 +144,7 @@ calibrate whether the conversion is worth their afternoon.
   noticeable.
 - **Editions for managing breaking changes.** The
   `Config/testthat/edition: 3` declaration locks the package
-  to a specific behavioural contract, which makes upgrades
+  to a specific behavioral contract, which makes upgrades
   predictable. testthat 4 will likely use the same mechanism.
 - **A wider assertion surface.** `expect_s3_class`,
   `expect_s4_class`, `expect_type`, `expect_named`,
@@ -213,7 +213,7 @@ calibrate whether the conversion is worth their afternoon.
   When a test fails, the failure mode is straightforward.
   When it passes, one can be confident it passed for the
   reason intended.
-- **Predictable behaviour across R versions.** With no
+- **Predictable behavior across R versions.** With no
   third-party dependencies, `tinytest` is unaffected by
   changes in the broader package ecosystem. A test suite
   written against `tinytest` 1.4 in 2024 will still run
@@ -255,7 +255,7 @@ calibrate whether the conversion is worth their afternoon.
   helpers.** The substitutes (`if (... condition ...)
   exit_file('reason')` at file scope) are equally clear but
   more verbose at the use site.
-- **No `patrick`-style parameterised tests.** Plain `for`
+- **No `patrick`-style parameterized tests.** Plain `for`
   loops work, but the failing-iteration identifier is the
   line number rather than a parameter label.
 - **Less informative diff output.** Without `waldo`, large
@@ -288,7 +288,7 @@ whose IDE workflow is critical, the test-pane row dominates.
 ## Motivations
 
 - Reading the `testthat` source after a debugging session and
-  realising how much of the dependency surface (`waldo`, `brio`,
+  realizing how much of the dependency surface (`waldo`, `brio`,
   `desc`, `pkgload`, `processx`, `cli`) my small packages were
   pulling in only to call `expect_equal` half a dozen times.
 - A growing collection of toy packages where `R CMD check` time
@@ -333,7 +333,7 @@ AMBIANCE IMAGE 1: placed after Objectives (workspace shot)
 
 `tinytest` is a single-file R testing framework, written by Mark
 van der Loo, that ships with no `Imports` and one test file per
-package concern. Where `testthat` organises tests as nested
+package concern. Where `testthat` organizes tests as nested
 calls inside a `test_that()` closure, `tinytest` evaluates each
 file as a script and treats every top-level `expect_*` call as
 an independent assertion.
@@ -422,7 +422,7 @@ Three differences worth naming:
    the package and remain runnable after install via
    `tinytest::test_package('mypkg')`. This is one of the larger
    conceptual shifts: in `tinytest`, tests are part of the
-   shipped package, not a development-only artefact.
+   shipped package, not a development-only artifact.
 2. **File-naming convention changes from `test-*.R` to `test_*.R`.**
    The underscore is `tinytest`'s default; the dash also works,
    but the underscore is what `tinytest::test_package()` expects
@@ -675,7 +675,7 @@ AMBIANCE IMAGE 2: placed mid-body (terminal/editor)
 
 These are the gotchas that cost me time during the conversion.
 Several are not in the `tinytest` documentation because they are
-artefacts of the migration rather than the framework itself.
+artifacts of the migration rather than the framework itself.
 
 1. **Helper files are not auto-sourced.** A `testthat` package
    with `tests/testthat/helper-data.R` gets that file sourced
@@ -714,7 +714,7 @@ artefacts of the migration rather than the framework itself.
    or terminal; the IDE integration is unlikely to change.
 7. **Parallelism requires explicit setup.** `testthat` 3.0+
    parallelises tests with `parallel = TRUE`. `tinytest` does
-   not parallelise out of the box, though `tinytest::test_all()`
+   not parallelize out of the box, though `tinytest::test_all()`
    accepts a `cl` argument for a `parallel` cluster. Suites
    with long-running per-file setup may run noticeably slower
    in serial.
@@ -798,7 +798,7 @@ artefacts of the migration rather than the framework itself.
 # Uninstall / Rollback
 
 If the conversion turns out to be a poor fit (snapshot-heavy
-suite, IDE-dependent workflow, parallelisation requirements),
+suite, IDE-dependent workflow, parallelization requirements),
 the rollback is straightforward because the original
 `tests/testthat/` directory has not been deleted. The git
 history preserves it.
@@ -827,7 +827,7 @@ AMBIANCE IMAGE 3: placed before Lessons Learnt (workflow scene)
 
 # What Did We Learn?
 
-## Lessons Learnt
+## Lessons Learned
 
 **Conceptual.**
 
@@ -885,7 +885,7 @@ AMBIANCE IMAGE 3: placed before Lessons Learnt (workflow scene)
   users. This is a feature (users can run the suite to verify
   their installation) but it means the test files should not
   contain credentials, paths to private servers, or other
-  artefacts that do not belong in a published package.
+  artifacts that do not belong in a published package.
 - Mixing `testthat` and `tinytest` during a partial migration.
   Both bootstraps will run during `R CMD check`. If the same
   assertion is duplicated, the count doubles; if it is split,
@@ -902,7 +902,7 @@ AMBIANCE IMAGE 3: placed before Lessons Learnt (workflow scene)
   packages that depend on any of these, the migration is a net
   loss.
 - The framework's spartan design means that some `testthat`
-  affordances (parameterised tests via `patrick`, fixtures via
+  affordances (parameterized tests via `patrick`, fixtures via
   `withr::local_*`) require manual reimplementation.
 - Error messages in `tinytest` are less informative by default
   than `testthat` 3's `waldo`-powered diffs. For numeric or
@@ -934,7 +934,7 @@ AMBIANCE IMAGE 3: placed before Lessons Learnt (workflow scene)
    migration.
 6. Contribute a `parallel = TRUE` argument to
    `tinytest::test_package()` that mirrors `testthat`'s
-   built-in parallelisation.
+   built-in parallelization.
 
 # Wrapping Up
 
@@ -1095,12 +1095,12 @@ draft.
 The first configuration, `R CMD check <source-directory>`,
 failed at the very first step with 'Required fields missing
 or empty: Author Maintainer'. Investigation showed that this
-is not a parsing issue but a behavioural one:
+is not a parsing issue but a behavioral one:
 `tools:::.read_description()`, which `R CMD check` calls to
 load the DESCRIPTION, does not auto-derive `Author` and
 `Maintainer` from `Authors@R`. The same DESCRIPTION passes
 when checked via the canonical `R CMD build .` followed by
-`R CMD check pkg_X.Y.Z.tar.gz`. The lesson generalises:
+`R CMD check pkg_X.Y.Z.tar.gz`. The lesson generalizes:
 prefer the build-then-check workflow; if direct
 source-directory checks are required, declare `Author` and
 `Maintainer` explicitly. Recipe section 17 and gotcha 10 now
