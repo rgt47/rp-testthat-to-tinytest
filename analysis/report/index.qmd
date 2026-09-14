@@ -3,7 +3,7 @@ title: "From testthat to tinytest: Converting an R Package Test Suite"
 author: "Ronald G. Thomas"
 date: "2026-05-02"
 categories: [r, testing, tinytest, testthat, packaging]
-description: "I did not really appreciate how much ceremony testthat carries until I rewrote a small package's suite in tinytest and lost roughly two-thirds of the lines without losing any coverage."
+description: "testthat carries a surprising amount of ceremony: rewriting a small package's suite in tinytest lost roughly two-thirds of the lines without losing any coverage."
 image: "media/images/hero.png"
 document-type: "blog"
 draft: false
@@ -32,7 +32,7 @@ YAML FRONT MATTER (lines 1-20)
   [x] draft: false    — flip when ready
 
 NARRATIVE INPUTS
-  [x] Hook sentence   — 'I didn't know how to configure [tool] until [trigger]'
+  [x] Hook sentence   — states the substantive finding up front
   [x] Pain point      — the specific friction the tool removes
   [x] Motivations     — exactly 4-5 bullets (workflow gap, frustration, curiosity, learning)
   [x] Objectives      — exactly 4 numbered, verifiable end states
@@ -85,10 +85,10 @@ HERO IMAGE
 
 # Introduction
 
-I did not really appreciate how much ceremony `testthat` carries
-until I cracked open `inst/tinytest/` in a small package and saw a
-fourteen-line file doing the work of an eighty-line `test_that()`
-file in the package I had been maintaining. The expectations were
+`testthat` carries a surprising amount of ceremony. Cracking open
+`inst/tinytest/` in a small package showed a fourteen-line file doing
+the work of an eighty-line `test_that()` file in the package I had
+been maintaining. The expectations were
 the same. The fixtures were the same. What was missing was the
 nesting, the helper boilerplate, and roughly half of the imports.
 
